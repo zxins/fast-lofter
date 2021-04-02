@@ -21,7 +21,3 @@ class TagCtrl(BaseCtrl):
         q = select(TagDBModel).where(TagDBModel.tag_id == tag_id)
         tag = self.db.execute(q).scalar_one_or_none()
         return TagRespModel.from_orm(tag) if tag else tag
-
-
-if __name__ == '__main__':
-    TagCtrl().create_tag('测试标签2')

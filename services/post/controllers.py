@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
-from typing import Optional
 
 from sqlalchemy import select, desc, insert
 
