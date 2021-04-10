@@ -4,8 +4,8 @@ from datetime import datetime
 from sqlalchemy import select, desc, insert
 
 from database import MySQLSession
-from lib.controller import BaseCtrl
-from lib.db_paginate import Pagination
+from library.controller import BaseCtrl
+from library.db_paginate import Pagination
 from services.post.models import PostDBModel, PostTagDBModel
 from services.post.schemas import PostRespModel, PostCreateModel
 

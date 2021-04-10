@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from sqlalchemy import select, insert
 
-from lib.controller import BaseCtrl
-from lib.db_paginate import Pagination
+from library.controller import BaseCtrl
+from library.db_paginate import Pagination
 from services.tag.models import TagDBModel
 from services.tag.schema import TagRespModel
 

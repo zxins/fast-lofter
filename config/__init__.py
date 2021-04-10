@@ -2,7 +2,6 @@ import os
 from typing import Union, Optional
 
 from pydantic import BaseSettings, AnyHttpUrl, IPvAnyAddress
-from pydantic.dataclasses import dataclass
 
 
 class Config(BaseSettings):
